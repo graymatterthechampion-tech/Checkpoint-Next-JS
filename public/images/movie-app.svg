@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="p1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f43f5e"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="p2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient>
+    <linearGradient id="p3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
+    <linearGradient id="p4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect x="100" y="70" width="1000" height="610" rx="24" fill="#0f172a" stroke="#6366f1" stroke-width="4"/>
+  <rect x="100" y="70" width="1000" height="56" rx="24" fill="#1e293b"/>
+  <circle cx="140" cy="98" r="9" fill="#f87171"/><circle cx="170" cy="98" r="9" fill="#fbbf24"/><circle cx="200" cy="98" r="9" fill="#34d399"/>
+  <text x="600" y="106" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="24" font-weight="600" text-anchor="middle">🎬 Movie App</text>
+  <rect x="150" y="155" width="560" height="44" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="172" y="184" fill="#64748b" font-family="system-ui, sans-serif" font-size="20">Search by title...</text>
+  <rect x="730" y="155" width="320" height="44" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="752" y="184" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="20">★★★★ 4 and up</text>
+  <g font-family="system-ui, sans-serif">
+    <rect x="150" y="230" width="210" height="300" rx="14" fill="url(#p1)"/>
+    <rect x="380" y="230" width="210" height="300" rx="14" fill="url(#p2)"/>
+    <rect x="610" y="230" width="210" height="300" rx="14" fill="url(#p3)"/>
+    <rect x="840" y="230" width="210" height="300" rx="14" fill="url(#p4)"/>
+    <path d="M237 355 l46 25 l-46 25 z" fill="#fff" opacity="0.85"/>
+    <path d="M467 355 l46 25 l-46 25 z" fill="#fff" opacity="0.85"/>
+    <path d="M697 355 l46 25 l-46 25 z" fill="#fff" opacity="0.85"/>
+    <path d="M927 355 l46 25 l-46 25 z" fill="#fff" opacity="0.85"/>
+    <rect x="150" y="548" width="150" height="16" rx="8" fill="#e2e8f0"/>
+    <rect x="380" y="548" width="130" height="16" rx="8" fill="#e2e8f0"/>
+    <rect x="610" y="548" width="160" height="16" rx="8" fill="#e2e8f0"/>
+    <rect x="840" y="548" width="120" height="16" rx="8" fill="#e2e8f0"/>
+    <text x="150" y="604" fill="#fbbf24" font-size="26" letter-spacing="2">★★★★★</text>
+    <text x="380" y="604" fill="#fbbf24" font-size="26" letter-spacing="2">★★★★☆</text>
+    <text x="610" y="604" fill="#fbbf24" font-size="26" letter-spacing="2">★★★★★</text>
+    <text x="840" y="604" fill="#fbbf24" font-size="26" letter-spacing="2">★★★★☆</text>
+  </g>
+</svg>

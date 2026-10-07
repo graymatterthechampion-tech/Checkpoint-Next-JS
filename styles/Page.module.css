@@ -1,0 +1,41 @@
+.section {
+  max-width: 720px;
+}
+
+.section p {
+  color: #cbd5e1;
+}
+
+.list {
+  padding-left: 20px;
+  color: #cbd5e1;
+}
+
+.contacts {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts li {
+  padding: 14px 18px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  word-break: break-word;
+}
+
+.contacts span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.homeLink {
+  font-weight: 600;
+  text-decoration: none;
+}

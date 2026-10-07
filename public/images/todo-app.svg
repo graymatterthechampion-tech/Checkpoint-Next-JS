@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#052e16"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect x="100" y="70" width="1000" height="610" rx="24" fill="#0f172a" stroke="#22c55e" stroke-width="4"/>
+  <rect x="100" y="70" width="1000" height="56" rx="24" fill="#1e293b"/>
+  <circle cx="140" cy="98" r="9" fill="#f87171"/><circle cx="170" cy="98" r="9" fill="#fbbf24"/><circle cx="200" cy="98" r="9" fill="#34d399"/>
+  <text x="600" y="106" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="24" font-weight="600" text-anchor="middle">✅ My ToDo List</text>
+  <g font-family="system-ui, sans-serif" font-size="22" font-weight="600">
+    <rect x="200" y="160" width="660" height="50" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="222" y="193" fill="#64748b" font-weight="400">What do you need to do?</text>
+    <rect x="880" y="160" width="120" height="50" rx="10" fill="#6366f1"/>
+    <text x="940" y="193" fill="#fff" text-anchor="middle">Add</text>
+    <rect x="200" y="232" width="120" height="40" rx="10" fill="#6366f1"/>
+    <text x="260" y="259" fill="#fff" text-anchor="middle" font-size="18">All (4)</text>
+    <rect x="334" y="232" width="130" height="40" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="399" y="259" fill="#cbd5e1" text-anchor="middle" font-size="18">Done (2)</text>
+    <rect x="478" y="232" width="170" height="40" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="563" y="259" fill="#cbd5e1" text-anchor="middle" font-size="18">Not done (2)</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="24">
+    <rect x="200" y="300" width="800" height="70" rx="12" fill="#1e293b"/>
+    <rect x="226" y="322" width="26" height="26" rx="6" fill="#22c55e"/><path d="M231 335 l7 7 l12 -14" stroke="#fff" stroke-width="4" fill="none"/>
+    <text x="276" y="344" fill="#64748b">Set up the project</text>
+    <rect x="276" y="335" width="202" height="2" fill="#64748b"/>
+    <rect x="200" y="384" width="800" height="70" rx="12" fill="#1e293b"/>
+    <rect x="226" y="406" width="26" height="26" rx="6" fill="#22c55e"/><path d="M231 419 l7 7 l12 -14" stroke="#fff" stroke-width="4" fill="none"/>
+    <text x="276" y="428" fill="#64748b">Learn Redux Toolkit</text>
+    <rect x="276" y="419" width="222" height="2" fill="#64748b"/>
+    <rect x="200" y="468" width="800" height="70" rx="12" fill="#1e293b"/>
+    <rect x="226" y="490" width="26" height="26" rx="6" fill="none" stroke="#94a3b8" stroke-width="3"/>
+    <text x="276" y="512" fill="#e2e8f0">Build the ToDo app</text>
+    <rect x="200" y="552" width="800" height="70" rx="12" fill="#1e293b"/>
+    <rect x="226" y="574" width="26" height="26" rx="6" fill="none" stroke="#94a3b8" stroke-width="3"/>
+    <text x="276" y="596" fill="#e2e8f0">Deploy to Vercel</text>
+    <g font-size="18" font-weight="600">
+      <rect x="820" y="483" width="70" height="40" rx="8" fill="#334155"/><text x="855" y="509" fill="#fff" text-anchor="middle">Edit</text>
+      <rect x="820" y="567" width="70" height="40" rx="8" fill="#334155"/><text x="855" y="593" fill="#fff" text-anchor="middle">Edit</text>
+      <text x="945" y="509" fill="#f87171" text-anchor="middle">Delete</text>
+      <text x="945" y="593" fill="#f87171" text-anchor="middle">Delete</text>
+    </g>
+  </g>
+</svg>
